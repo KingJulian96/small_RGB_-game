@@ -1,0 +1,86 @@
+.combo-box .list-cell
+{
+    -fx-background: red;
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-padding: 3 0 2 7;
+    -fx-cell-size: 1.66667em;
+}
+
+.combo-box-popup .list-view
+{
+    -fx-background-color: red, white;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 8, 0.0 , 0 , 0 );
+}
+
+.combo-box-popup .list-view .list-cell
+{
+    -fx-padding: 4 0 4 5;
+    -fx-background-color: grey;
+}
+
+.combo-box-popup .list-view .list-cell:filled:selected, .combo-box-popup .list-view .list-cell:filled:selected:hover
+{
+    -fx-background: -fx-accent;
+    -fx-background-color: -fx-selection-bar;
+    -fx-text-fill: white;
+}
+
+.combo-box-popup .list-view .list-cell:filled:hover
+{
+    -fx-background-color: #AA5498;
+    -fx-text-fill: white;
+}
+
+
+.combo-box {
+	-fx-background-color:
+        linear-gradient(#bb0a21, #252627, #252627, #252627, #bb0a21);
+    -fx-text-fill: white;
+}
+
+.combo-box:hover {
+	-fx-background-color:
+        linear-gradient(#bb0a21, #252627, #bb0a21);
+}
+
+.combo-box:pressed {
+	-fx-background-color:
+        linear-gradient(#bb0a21, #353637, #353637, #bb0a21);
+}
+
+.button {
+    -fx-background-color:
+        linear-gradient(#bb0a21, #252627, #252627, #252627, #bb0a21);
+    -fx-background-insets: 0.0,1.0,2.0;
+    -fx-background-radius: 3.0,2.0,1.0;
+    -fx-padding: 7.0 20.0 7.0 20.0;
+    -fx-pref-width: 200px;
+    -fx-text-fill: white;
+    -fx-font-family: "Verdana";
+    -fx-font-weight: bold;
+    -fx-font-size: 1.5em;
+    -fx-alignment:center
+}
+
+#pane{
+    -fx-background-image: url("game.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 900 506;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+.button:hover {
+	-fx-background-color:
+        linear-gradient(#bb0a21, #252627, #bb0a21);
+    -fx-padding: 8.0 30.0 6.0 30.0;
+}
+
+.button:pressed {
+	-fx-background-color:
+        linear-gradient(#bb0a21, #353637, #353637, #bb0a21);
+}
+body {
+  background-color: lightblue;
+}

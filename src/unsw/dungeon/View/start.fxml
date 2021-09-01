@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="Advanced" layoutX="200.0" layoutY="90.0" mnemonicParsing="false" onAction="#handleAdvencedButton" text="Advanced" textAlignment="CENTER" />
+      <Button fx:id="Boulders" layoutX="200.0" layoutY="157.0" mnemonicParsing="false" onAction="#handleBouldersButton" text="Boulders" textAlignment="CENTER" />
+      <Button fx:id="Example" layoutX="200.0" layoutY="224.0" mnemonicParsing="false" onAction="#handleExampleButton" text="Easy" textAlignment="CENTER" />
+      <Button fx:id="reset" layoutX="200.0" layoutY="291.0" mnemonicParsing="false" onAction="#handleResetButton" text="Reset All" textAlignment="CENTER" />
+   </children>
+</Pane>
